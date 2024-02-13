@@ -9,6 +9,7 @@ public class Main {
         percy.add(0);
         percy.add(1);
 
+
         ArrayList<String> anna = new ArrayList<>();
         anna.add("String");
 
@@ -25,11 +26,46 @@ public class Main {
         rachel.add(2);
         rachel.add(3);
 
+        ArrayList<Integer> leo = new ArrayList<>();
+        leo.add(-1);
+        leo.add(0);
+        leo.add(-1);
+
+        ArrayList<String> grover = new ArrayList<>();
+        grover.add("satyr");
+        grover.add("pan");
+        grover.add("satyr");
+        grover.add("juniper");
+
+        ArrayList<String> jason = new ArrayList<>();
+        jason.add("zeus");
+        jason.add("son");
+        jason.add("sister");
+
         int[] hazel = {1, 2, 3};
+        int[] frank = {9, 7, 9};
+        int[] piper = {10, 4, 7};
+
+
         System.out.println(alg.negatives(percy));
+        System.out.println(alg.negatives(rachel));
+        System.out.println(alg.negatives(leo));
+
         System.out.println(alg.inlist(anna, "string"));
+        System.out.println(alg.inlist(grover, "satyr"));
+        System.out.println(alg.inlist(jason, "son"));
+
         System.out.println(alg.checker(nico,will));
+        System.out.println(alg.checker(rachel, leo));
+        System.out.println(alg.checker(rachel, percy));
+
         System.out.println(alg.returner(rachel, 2));
+        System.out.println(alg.returner(leo, 2));
+        System.out.println(alg.returner(percy, 1));
+
         System.out.println(alg.rept(hazel, 2));
+        System.out.println(alg.rept(frank, 9));
+        System.out.println(alg.rept(piper, 11));
+
     }
 }
