@@ -1,0 +1,35 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        Algs alg = new Algs();
+        ArrayList<Integer> percy = new ArrayList<>();
+        percy.add(-1);
+        percy.add(0);
+        percy.add(1);
+
+        ArrayList<String> anna = new ArrayList<>();
+        anna.add("String");
+
+        ArrayList<Integer> nico = new ArrayList<>();
+        nico.add(1);
+        nico.add(2);
+
+        ArrayList<Integer> will = new ArrayList<>();
+        will.add(2);
+        will.add(3);
+
+        ArrayList<Integer> rachel = new ArrayList<>();
+        rachel.add(1);
+        rachel.add(2);
+        rachel.add(3);
+
+        int[] hazel = {1, 2, 3};
+        System.out.println(alg.negatives(percy));
+        System.out.println(alg.inlist(anna, "string"));
+        System.out.println(alg.checker(nico,will));
+        System.out.println(alg.returner(rachel, 2));
+        System.out.println(alg.rept(hazel, 2));
+    }
+}
