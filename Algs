@@ -6,7 +6,7 @@ public class Algs {
             if (m<0) nums++;
         }
         return nums;
-    }
+    } 
 
     public boolean inlist (ArrayList<String> x, String m){
         for(String l:x){
